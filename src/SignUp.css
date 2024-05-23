@@ -1,0 +1,49 @@
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-size: 25px;
+}
+
+.singup_input input {
+    font-size: 15px;
+    width: 360px;
+    height: 40px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.submit_button input[type='submit'] {
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 180px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.submit_button input[type='submit']:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.ww {
+    position: absolute;
+    bottom: 60.5%;
+    right: 2%;
+    background-color: #ece8e8;
+    color: black;
+    border: 1px solid darkgray;
+}
+
+.ww:hover {
+    background-color: #ece8e8;
+    opacity: 0.5;
+}

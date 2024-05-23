@@ -1,0 +1,53 @@
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-size: 25px;
+}
+
+.login_input input {
+    font-size: 15px;
+    width: 360px;
+    height: 40px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.submit_button input[type='submit'] {
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 180px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.submit_button input[type='submit']:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.signup {
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 178px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.signup:hover {
+    background-color: black;
+    color: white;
+}
